@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="11" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-24T15:56:15 IST" name="Default suite" finished-at="2022-09-24T15:56:21 IST" duration-ms="6049">
+  <suite started-at="2022-09-24T16:46:35 IST" name="Suite" finished-at="2022-09-24T16:46:45 IST" duration-ms="9474">
     <groups>
     </groups>
-    <test started-at="2022-09-24T15:56:15 IST" name="Default test" finished-at="2022-09-24T15:56:21 IST" duration-ms="6049">
+    <test started-at="2022-09-24T16:46:35 IST" name="Test" finished-at="2022-09-24T16:46:45 IST" duration-ms="9474">
       <class name="com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@7b9a4292]" started-at="2022-09-24T15:56:15 IST" name="setup" finished-at="2022-09-24T15:56:16 IST" duration-ms="954" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:35 IST" name="setup" finished-at="2022-09-24T16:46:36 IST" duration-ms="957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_the_1st_data_and_its_id()[pri:11, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@7b9a4292]" started-at="2022-09-24T15:56:16 IST" name="validate_the_1st_data_and_its_id" finished-at="2022-09-24T15:56:21 IST" duration-ms="4973" status="PASS">
+        <test-method signature="setTheParameter()[pri:1, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:36 IST" name="setTheParameter" finished-at="2022-09-24T16:46:41 IST" duration-ms="4085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTheParameter -->
+        <test-method signature="getTheStatusAndprintIt()[pri:2, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:41 IST" name="getTheStatusAndprintIt" finished-at="2022-09-24T16:46:41 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheStatusAndprintIt -->
+        <test-method signature="getThetime_andThatShouldBelow2000()[pri:3, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:41 IST" name="getThetime_andThatShouldBelow2000" finished-at="2022-09-24T16:46:41 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getThetime_andThatShouldBelow2000 -->
+        <test-method signature="Validate_the_Header()[pri:4, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:41 IST" name="Validate_the_Header" finished-at="2022-09-24T16:46:41 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_the_Header -->
+        <test-method signature="getTheOneOfTheStatusCode()[pri:5, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:41 IST" name="getTheOneOfTheStatusCode" finished-at="2022-09-24T16:46:42 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheOneOfTheStatusCode -->
+        <test-method signature="validateThePage2()[pri:6, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:42 IST" name="validateThePage2" finished-at="2022-09-24T16:46:43 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThePage2 -->
+        <test-method signature="validateThePer_page()[pri:7, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:43 IST" name="validateThePer_page" finished-at="2022-09-24T16:46:44 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThePer_page -->
+        <test-method signature="validate_the_total()[pri:8, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:44 IST" name="validate_the_total" finished-at="2022-09-24T16:46:44 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_total -->
+        <test-method signature="VaidateThetotal_pages()[pri:9, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:44 IST" name="VaidateThetotal_pages" finished-at="2022-09-24T16:46:44 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VaidateThetotal_pages -->
+        <test-method signature="matchesTheValueOftotal_pages()[pri:10, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:44 IST" name="matchesTheValueOftotal_pages" finished-at="2022-09-24T16:46:44 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matchesTheValueOftotal_pages -->
+        <test-method signature="validate_the_1st_data_and_its_id()[pri:11, instance:com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2@6b927fb]" started-at="2022-09-24T16:46:45 IST" name="validate_the_1st_data_and_its_id" finished-at="2022-09-24T16:46:45 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_the_1st_data_and_its_id -->
       </class> <!-- com.ReqresProject1.reqresProjectfrom_Postman.TC_1_getTheDataOPage_2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
